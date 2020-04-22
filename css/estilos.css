@@ -1,0 +1,7 @@
+body{
+    background: rgb(117, 202, 202);
+}
+header,nav,section #contenedor,footer{
+    border-radius: .5en;
+    background-color: rgb(132, 196, 255);
+}
