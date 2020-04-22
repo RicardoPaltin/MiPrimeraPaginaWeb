@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css"href="css/estilos.css">
 </head>
 <body>
-    <header>Bienvenidos a Prevención del COVID-19</header>
+    <header>Bienvenidos a Información del COVID-19</header>
     <section id= "contenedor">
         <section id="contenido">
 
@@ -103,20 +103,55 @@
                 
                     <td>17.08 millones</td>
                 
-                  </tr>
+                </tr>
               
-              </table>
+            </table>
+            <h2>Formulario de sugerencias</h2>
 
+            <form action="../../form-result.php" method="post" target="_blank">
+                <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
 
+                <p>Asunto <input type="text" name="usuario"></p>
+
+                <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+        
+                <p>Calificación:
+
+                    <label><input type="checkbox" name="libros"> Malo</label>
+
+                    <label><input type="checkbox" name="libros"> Regular</label>
+                
+                    <label><input type="checkbox" name="peliculas"> Bueno</label>
+                
+                    <label><input type="checkbox" name="videojuegos"> Excelente</label>
+                
+                </p>
+
+                <p><input type="submit" value="Enviar sugerencia"></p>
+              
+            </form>
 
         </section>
         <aside>
-            sección lateral
+            <p>sección lateral</p>
+
+            <img class="flr" src="img/publicidad.png" alt="covid">
+
+            <form action="../../form-result.php" method="post" target="_blank">
+
+                <p>Nombre de usuario: <input type="text" name="usuario"></p>
+              
+                <p>Contraseña: <input type="password" name="pass"></p>
+              
+                <p><input type="submit" value="Entrar"></p>
+              
+            </form>
+            <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal" />
         </aside>
 
     </section>
     <footer>
-        Este sitio fue creador por Ricardo Paltin
+        Este sitio fue creado por Ricardo Paltin
 
     </footer>
     
